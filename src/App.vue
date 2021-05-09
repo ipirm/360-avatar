@@ -1,17 +1,49 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
+    <vue-three-sixty
+        :amount=149
+        imagePath="/assets"
+        fileName="{index}.png"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
   }
 }
 </script>
@@ -24,5 +56,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 100%;
 }
 </style>
